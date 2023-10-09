@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+.top-bar {
+  width: 100%;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-color: #161a2a;
+  -webkit-box-shadow: 0px 6px 38px 10px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 6px 38px 10px rgba(0, 0, 0, 0.56);
+  box-shadow: 0px 6px 38px 10px rgba(0, 0, 0, 0.56);
+}
+
+.back-container {
+  width: 100%;
+  margin: 0 auto -20px;
+  background-image: url("../../Assets/images/Mojave.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.e-logo {
+  float: left;
+  position: relative;
+  top: 1.5px;
+  left: 20px;
+  color: white;
+  font-size: 12px;
+  font-family: "Bowlby One SC", cursive;
+  transform: rotate(-0.12turn);
+  text-decoration: none;
+}
+
+a {
+  text-decoration-color: white;
+}
+
+a:visited {
+  text-decoration-color: white;
+}

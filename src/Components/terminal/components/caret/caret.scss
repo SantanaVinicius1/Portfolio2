@@ -1,0 +1,22 @@
+.cursor {
+  display: inline-block;
+  color: transparent;
+  font-size: 11px;
+  position: relative;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+  color: white;
+  background-color: white;
+}
+@keyframes blinker {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  51%,
+  100% {
+    opacity: 1;
+  }
+}
